@@ -4,6 +4,7 @@ SmartWallet è un'app per smartphone intuitiva e minimale, pensata per aiutare g
 ## Caratteristiche
 - Leggerezza (alla prima installazione l'app occupa meno di 3 MB)
 - Nessuna connessione a internet richiesta
+- Memorizzazione dei dati in database SQL locale
 - Interfaccia "a schede" intuitiva e minimale
 - Compatibilità con Android 4.4 e versioni successive (supportato il 95,3% dei dispositivi Android)
 
