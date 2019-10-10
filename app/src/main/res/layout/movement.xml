@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/value_movement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_gap"
+        android:layout_marginEnd="@dimen/small_gap"
+        android:layout_marginBottom="@dimen/small_gap"
+        android:textSize="@dimen/default_text_size"
+        android:layout_below="@id/category_movement" />
+
+    <TextView
+        android:id="@+id/date_movement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/small_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/category_movement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_gap"
+        android:layout_marginEnd="@dimen/small_gap"
+        android:textSize="@dimen/small_text_size"
+        android:layout_below="@id/date_movement" />
+
+    <include
+        android:id="@+id/button_delete_movement"
+        layout="@layout/delete_button"
+        android:layout_width="@dimen/button_progress_width"
+        android:layout_height="@dimen/button_progress_width"
+        android:layout_marginTop="@dimen/minimal_gap"
+        android:layout_marginEnd="@dimen/small_gap"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/date_movement" />
+
+</RelativeLayout>

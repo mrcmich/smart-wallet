@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minimal_gap">6dp</dimen>
+    <dimen name="very_small_gap">8dp</dimen>
+    <dimen name="small_gap">16dp</dimen>
+    <dimen name="medium_gap">32dp</dimen>
+    <dimen name="very_large_gap">90dp</dimen>
+    <dimen name="default_card_corner_radius">8dp</dimen>
+    <dimen name="big_card_corner_radius">24dp</dimen>
+    <dimen name="default_card_elevation">32dp</dimen>
+    <dimen name="big_card_elevation">64dp</dimen>
+    <dimen name="very_small_text_size">16sp</dimen>
+    <dimen name="small_text_size">18sp</dimen>
+    <dimen name="default_text_size">24sp</dimen>
+    <dimen name="medium_text_size">36sp</dimen>
+    <dimen name="large_text_size">55sp</dimen>
+    <dimen name="toolbar_height">46dp</dimen>
+    <dimen name="button_corner_radius">60dp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="button_progress_width">45dp</dimen>
+    <dimen name="navigation_bottom_border">1dp</dimen>
+    <dimen name="toolbar_icon_width">40dp</dimen>
+</resources>

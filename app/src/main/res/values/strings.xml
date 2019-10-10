@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">SmartWallet</string>
+    <string name="balance_card_title">SALDO DISPONIBILE</string>
+    <string name="relevant_limits_card_title">LIMITI DI SPESA RILEVANTI</string>
+    <string name="relevant_targets_card_title">OBIETTIVI RILEVANTI</string>
+    <string name="limits_card_title">TUTTI I LIMITI DI SPESA</string>
+    <string name="targets_card_title">TUTTI GLI OBIETTIVI</string>
+    <string name="nav_home_title">Home</string>
+    <string name="nav_movements_title">Movimenti</string>
+    <string name="nav_progresses_title">Progressi</string>
+    <string name="new_movement_toolbar_text">Nuovo movimento</string>
+    <string name="no_limits">Aggiungi limiti di spesa per tenere sotto controllo le tue spese mensili!</string>
+    <string name="no_targets">Aggiungi obiettivi per risparmiare e concederti qualche regalo!</string>
+    <string name="no_movements">Non ci sono movimenti per i filtri attuali</string>
+    <string name="new_progress_toolbar_text">Nuovo progresso</string>
+    <string name="movements_card_title">MOVIMENTI</string>
+    <string name="new_movement_button_text">Aggiungi movimento</string>
+    <string name="new_progress_button_text">Aggiungi progresso</string>
+    <string name="numpad_7">7</string>
+    <string name="numpad_8">8</string>
+    <string name="numpad_9">9</string>
+    <string name="numpad_4">4</string>
+    <string name="numpad_5">5</string>
+    <string name="numpad_6">6</string>
+    <string name="numpad_1">1</string>
+    <string name="numpad_2">2</string>
+    <string name="numpad_3">3</string>
+    <string name="numpad_comma">.</string>
+    <string name="numpad_0">0</string>
+    <string name="currency">€</string>
+    <string name="new_target_name_hint">Nome dell\'obiettivo</string>
+    <string name="delete_last_key_description">Cancella l\'ultima cifra</string>
+    <string name="action_confirm_title">Conferma selezione</string>
+    <string name="edit_progress_toolbar_text">Modifica progresso</string>
+    <string name="icon_text">Icona dell\'applicazione</string>
+    <string name="delete_button_description">Cancella il record</string>
+
+    <string-array name="entry_types">
+        <item>Seleziona tipo</item>
+        <item>Tutti i tipi</item>
+        <item>Entrata</item>
+        <item>Entrate</item>
+        <item>Uscita</item>
+        <item>Uscite</item>
+        <item>Limite di spesa</item>
+        <item>Obiettivo</item>
+        <item>Seleziona obiettivo</item>
+    </string-array>
+
+    <string-array name="entry_categories">
+        <item>Seleziona categoria</item>
+        <item>Tutte le categorie</item>
+        <item>Abbigliamento</item>
+        <item>Trasporti</item>
+        <item>Benessere</item>
+        <item>Sport</item>
+        <item>Alimentari</item>
+        <item>Uscite con gli amici</item>
+        <item>Affitto</item>
+        <item>Intrattenimento</item>
+        <item>Viaggi</item>
+        <item>Tecnologia</item>
+        <item>Giardinaggio</item>
+        <item>Bollette</item>
+        <item>Gestione veicolo</item>
+        <item>Stipendio</item>
+        <item>Vendite</item>
+        <item>Regali</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="movement_periods">
+        <item>Ultima settimana</item>
+        <item>Ultimo mese</item>
+        <item>Ultimi 3 mesi</item>
+        <item>Ultimo anno</item>
+    </string-array>
+
+    <string-array name="warnings">
+        <item>Impossibile accedere al database!</item>
+        <item>Hai raggiunto un limite di spesa!</item>
+        <item>Hai raggiunto un obiettivo!</item>
+        <item>Il valore inserito non è valido!</item>
+        <item>Seleziona il tipo di movimento!</item>
+        <item>Seleziona la categoria del movimento!</item>
+        <item>Seleziona il tipo di progresso!</item>
+        <item>Seleziona la categoria da monitorare!</item>
+        <item>Seleziona un obiettivo!</item>
+        <item>Saldo disponibile insufficiente!</item>
+        <item>Inserisci il nome dell\'obiettivo!</item>
+        <item>Esiste già un obiettivo con questo nome!</item>
+    </string-array>
+
+</resources>

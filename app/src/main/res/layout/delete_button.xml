@@ -1,0 +1,8 @@
+<ImageButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/button_progress_width"
+    android:layout_height="@dimen/button_progress_width"
+    android:background="@drawable/delete_button_background"
+    app:srcCompat="@drawable/ic_button_delete"
+    android:contentDescription="@string/delete_button_description" />

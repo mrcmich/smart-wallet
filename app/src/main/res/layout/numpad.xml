@@ -1,0 +1,135 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/very_small_gap"
+        android:layout_marginTop="@dimen/medium_gap"
+        android:layout_marginEnd="@dimen/very_small_gap"
+        android:layout_marginBottom="@dimen/very_small_gap"
+        app:cardCornerRadius="@dimen/big_card_corner_radius"
+        app:cardElevation="@dimen/big_card_elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <GridLayout
+            android:id="@+id/layout_numpad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/very_small_gap"
+            android:layout_marginBottom="@dimen/very_small_gap"
+            android:columnCount="3"
+            android:foregroundGravity="center"
+            android:orientation="horizontal"
+            android:rowCount="4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <Button
+                android:id="@+id/numpad_7"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_7"
+                android:textSize="@dimen/large_text_size" />
+
+            <Button
+                android:id="@+id/numpad_8"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_8"
+                android:textSize="@dimen/large_text_size" />
+
+            <Button
+                android:id="@+id/numpad_9"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_9"
+                android:textSize="@dimen/large_text_size" />
+
+            <Button
+                android:id="@+id/numpad_4"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_4"
+                android:textSize="@dimen/large_text_size" />
+
+            <Button
+                android:id="@+id/numpad_5"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_5"
+                android:textSize="@dimen/large_text_size" />
+
+            <Button
+                android:id="@+id/numpad_6"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_6"
+                android:textSize="@dimen/large_text_size" />
+
+            <Button
+                android:id="@+id/numpad_1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_1"
+                android:textSize="@dimen/large_text_size" />
+
+            <Button
+                android:id="@+id/numpad_2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_2"
+                android:textSize="@dimen/large_text_size" />
+
+            <Button
+                android:id="@+id/numpad_3"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_3"
+                android:textSize="@dimen/large_text_size" />
+
+            <Button
+                android:id="@+id/numpad_comma"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_comma"
+                android:textSize="@dimen/large_text_size" />
+
+            <Button
+                android:id="@+id/numpad_0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:text="@string/numpad_0"
+                android:textSize="@dimen/large_text_size" />
+
+            <ImageButton
+                android:id="@+id/numpad_delete"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/numpad_button"
+                android:contentDescription="@string/delete_last_key_description"
+                android:src="@drawable/ic_keyboard_backspace" />
+
+        </GridLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
