@@ -1,7 +1,7 @@
 # SmartWallet
 SmartWallet è un'app per smartphone intuitiva e minimale, pensata per aiutare gli studenti universitari a gestire in modo semplice ed efficace le proprie finanze. Permette di tenere traccia di tutte le entrate e le uscite (in contanti), di monitorare le spese mensili per categoria e di impostare degli obiettivi da raggiungere. 
 
-## Funzionalità principali
+## Principali caratteristiche
 - Monitoraggio del saldo disponibile
 - Aggiunta/eliminazione di movimenti 
 - Possibilità di filtrare la lista dei movimenti in base a tipo, categoria di spesa e data
